@@ -4,7 +4,7 @@
   "description": "denominate prices in sats",
   "main": "background.js",
   "scripts": {
-    "code:lint": "eslint '**/**/*.{ts,tsx}'",
+    "code:lint": "eslint '**/**/*.{ts,tsx,js}'",
     "code:lint-fix": "eslint --fix '**/**/*.{ts,tsx}'",
     "code:prettier": "prettier --write '**/**/*.{ts,tsx}'",
     "code:typecheck": "./node_modules/.bin/tsc --noEmit",

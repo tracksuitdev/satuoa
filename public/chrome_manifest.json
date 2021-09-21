@@ -1,14 +1,18 @@
 {
   "name": "datetime",
   "version": "1.0",
-  "description": "Build a Datetime Extension!",
+  "description": "Denominate prices in BTC",
   "permissions": [
-    "declarativeContent"
+    "declarativeContent", "activeTab"
   ],
   "manifest_version": 3,
   "background": {
     "service_worker": "background.js"
   },
+  "content_scripts": [{
+    "matches": ["<all_urls>"],
+    "js": ["content.js"]
+  }],
   "action": {
     "default_popup": "popup.html",
     "default_icon": {

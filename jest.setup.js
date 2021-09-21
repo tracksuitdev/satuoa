@@ -1,1 +1,2 @@
-require('whatwg-fetch');
+/* eslint-env node */
+require("whatwg-fetch");

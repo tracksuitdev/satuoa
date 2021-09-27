@@ -3,7 +3,6 @@ const ignores = ["/node_modules/", "__mocks__"];
 
 module.exports = {
   collectCoverageFrom: ["src/lib/app.ts", "src/lib/utils.ts"],
-  testMatch: ["**/test/**/*.test.+(ts|tsx|js)"],
   testPathIgnorePatterns: [...ignores],
   coveragePathIgnorePatterns: [...ignores, "src/(umd|cjs|esm)-entry.js$"],
   transformIgnorePatterns: ["[/\\\\]node_modules[/\\\\].+\\.(js|jsx)$"],

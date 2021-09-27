@@ -14,7 +14,7 @@
     "app:edge-dev": "cross-env BROWSER='edge' webpack --config webpack/webpack.dev.js --watch",
     "app:firefox": "rimraf dist && cross-env BROWSER='firefox' webpack --config webpack/webpack.prod.js",
     "app:firefox-dev": "cross-env BROWSER='firefox' webpack --config webpack/webpack.dev.js --watch",
-    "test:unit": "jest"
+    "test": "jest"
   },
   "license": "MIT",
   "devDependencies": {

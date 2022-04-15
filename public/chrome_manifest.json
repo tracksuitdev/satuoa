@@ -1,7 +1,7 @@
 {
-  "name": "datetime",
+  "name": "satuoa",
   "version": "1.0",
-  "description": "Denominate prices in BTC",
+  "description": "Denominate prices in sats",
   "permissions": [
     "declarativeContent", "activeTab"
   ],
@@ -16,16 +16,16 @@
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
-      "16": "images/logo/date-time-16.png",
-      "32": "images/logo/date-time-32.png",
-      "48": "images/logo/date-time-48.png",
-      "128": "images/logo/date-time-128.png"
+      "16": "images/logo/sat-symbol-16.png",
+      "32": "images/logo/sat-symbol-32.png",
+      "48": "images/logo/sat-symbol-48.png",
+      "128": "images/logo/sat-symbol-128.png"
     }
   },
   "icons": {
-    "16": "images/logo/date-time-16.png",
-    "32": "images/logo/date-time-32.png",
-    "48": "images/logo/date-time-48.png",
-    "128": "images/logo/date-time-128.png"
+    "16": "images/logo/sat-symbol-16.png",
+    "32": "images/logo/sat-symbol-32.png",
+    "48": "images/logo/sat-symbol-48.png",
+    "128": "images/logo/sat-symbol-128.png"
   }
 }
